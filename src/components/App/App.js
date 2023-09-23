@@ -1,15 +1,11 @@
+import Dashboard from '../Dashboard/Dashboard';
 import './App.css'
 
 function App() {
   return (
     <div className="app">
+      <Dashboard />
       <p>
-      Report for
-  Jeremy Robson
-
-  Daily
-  Weekly
-  Monthly
 
   {/* Work
   5hrs <!-- daily -->

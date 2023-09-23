@@ -2,10 +2,11 @@
     margin: 0 auto;
     min-height: 100vh;
     font-family: 'Rubik';
-    font-size: 14px;
+    color: var(--white);
+    font-size: 18px;
     font-weight: 400;
     color: var(--white);
-    background-color: var(--saturated-dark-blue);
+    background-color: var(--very-dark-blue);
     display: flex;
     flex-direction: column;
     /* justify-content: center;
