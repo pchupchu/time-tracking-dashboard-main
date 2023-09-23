@@ -1,13 +1,14 @@
 .app {
     margin: 0 auto;
     min-height: 100vh;
+    font-family: 'Rubik';
     font-size: 14px;
     font-weight: 400;
     color: var(--white);
     background-color: var(--saturated-dark-blue);
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center;
     align-items: center; */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
