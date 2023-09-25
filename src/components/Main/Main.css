@@ -1,0 +1,15 @@
+.main {
+  margin: 0 auto;
+  padding: 81px 24px;
+  flex-grow: 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+@media screen and (min-width: 720px) {
+  .main {
+    grid-template-columns: 255px 1fr;
+    gap: 30px;
+  }
+}

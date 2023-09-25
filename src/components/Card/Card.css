@@ -1,0 +1,83 @@
+.card {
+  margin: 0;
+  padding-top: 38px;
+  width: 100%;
+  background-color: var(--orange);
+  border-radius: 15px;
+  background-image: url('../../images/icon-work.svg');
+  background-repeat: no-repeat;
+  background-position: top -10px right 17px;
+}
+
+@media screen and (min-width: 960px) {
+  .card {
+    max-width: 255px;
+    padding-top: 45px;
+  }
+}
+
+.card__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 7px;
+  background-color: var(--dark-blue);
+  border-radius: 15px;
+  padding: 28px 24px;
+}
+
+@media screen and (min-width: 960px) {
+  .card__container {
+    /* margin-top: 45px; */
+    padding: 29px 35px 32px 30px;
+    gap: 25px;
+  }
+}
+
+.card__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card__value {
+  flex-direction: column;
+  align-items: start;
+}
+
+.card__title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card__button {
+  border: none;
+  padding: 0;
+  width: 21px;
+  height: 5px;
+  background-image: url('../../images/icon-ellipsis.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: var(--dark-blue);
+}
+
+.card__time {
+  font-size: 32px;
+  font-weight: 300;
+  margin: 0;
+}
+
+@media screen and (min-width: 960px) {
+  .card__time {
+    font-size: 56px;
+    margin-bottom: 8px;
+  }
+}
+
+.card__text {
+  color: var(--light-violet);
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+}

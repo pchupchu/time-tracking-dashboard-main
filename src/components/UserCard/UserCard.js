@@ -13,9 +13,9 @@ function UserCard() {
       </div>
       <div>
         <ul  className='user__time'>
-          <li><p className='user__period'>Daily</p></li>
-          <li><p className='user__period user__period_active'>Weekly</p></li>
-          <li><p className='user__period'>Monthly</p></li>
+          <li className='user__period-item'><p className='user__period'>Daily</p></li>
+          <li className='user__period-item'><p className='user__period user__period_active'>Weekly</p></li>
+          <li className='user__period-item'><p className='user__period'>Monthly</p></li>
         </ul>
       </div>
     </div>

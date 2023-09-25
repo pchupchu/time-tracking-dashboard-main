@@ -1,10 +1,18 @@
-import UserCard from '../UserCard/UserCard';
+import Card from '../Card/Card';
 import './Dashboard.css';
 
 function Dashboard() {
   return (
     <section className="dashboard">
-      <UserCard />
+      <ul className='dashboard__list'>
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+        <Card />
+      </ul>
+
     </section>
   );
 }

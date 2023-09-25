@@ -1,5 +1,6 @@
 .app {
     margin: 0 auto;
+    /* padding: 81px 24px; */
     min-height: 100vh;
     font-family: 'Rubik';
     color: var(--white);
@@ -7,10 +8,16 @@
     font-weight: 400;
     color: var(--white);
     background-color: var(--very-dark-blue);
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+    /* display: flex;
+    flex-direction: column; */
+    /* gap: 24px; */
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
   }
+
+  /* @media screen and (min-width: 960px) {
+    .app {
+      flex-direction: row;
+      gap: 30px;
+    }
+  } */

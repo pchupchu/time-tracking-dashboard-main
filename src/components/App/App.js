@@ -1,12 +1,13 @@
-import Dashboard from '../Dashboard/Dashboard';
+// import UserCard from '../UserCard/UserCard';
+// import Dashboard from '../Dashboard/Dashboard';
 import './App.css'
+import Main from '../Main/Main';
 
 function App() {
   return (
     <div className="app">
-      <Dashboard />
-      <p>
-
+      <Main />
+      
   {/* Work
   5hrs <!-- daily -->
   Previous - 7hrs <!-- daily -->
@@ -54,7 +55,7 @@ function App() {
   Previous - 2hrs <!-- weekly -->
   7hrs <!-- monthly -->
   Previous - 11hrs <!-- monthly --> */}
-      </p>
+
     </div>
   );
 }
