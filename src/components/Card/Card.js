@@ -1,17 +1,18 @@
 import './Card.css';
 
-function Card() {
+function Card({title, image, background, timeframes}) {
   return (
-    <li className="card">
+    <li className="card" style={{ backgroundImage: `url(${image})`, backgroundColor: `${background}` }}
+    >
       <div className='card__container'>
         <div className='card__content'>
-          <h2 className='card__title'>Work</h2>
+          <h2 className='card__title'>{title}</h2>
           <button className='card__button'></button>
         </div>
         <div className='card__content card__value'>
-          <p className='card__time'>32hrs</p>
+          <p className='card__time'>{timeframes.weekly.current}hrs</p>
           <div className='card__previous'>
-            <p className='card__text'>Last Week - 36hrs</p>
+            <p className='card__text'>Last Week - {timeframes.weekly.previous}hrs</p>
           </div>
         </div>
       </div>

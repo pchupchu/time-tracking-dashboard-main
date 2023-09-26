@@ -16,7 +16,7 @@ This is a solution to the [Time tracking dashboard challenge on Frontend Mentor]
 ### Links
 
 - [Solution URL](https://www.frontendmentor.io/solutions/simple-mobilefirst-solution-to-react-component-using-flexbox-VdvdY-rbX_)
-- [Live Site URL](https://order-summary-component-main-vert-nu.vercel.app/)
+- [Live Site URL](https://time-tracking-dashboard-main-chi.vercel.app/)
 
 ### Built with
 
