@@ -13,8 +13,9 @@
   justify-content: start;
 }
 
-@media screen and (min-width: 720px) {
+@media screen and (min-width: 1140px) {
   .dashboard__list {  
+    grid-template-columns: repeat(3, 255px);
     gap: 30px;
   }
 }
