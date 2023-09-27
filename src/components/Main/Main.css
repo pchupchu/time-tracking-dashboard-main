@@ -9,14 +9,9 @@
 
 @media screen and (min-width: 720px) {
   .main {
-    grid-template-columns: 255px 1fr;
-    gap: 30px;
-  }
-}
-
-@media screen and (min-width: 1140px) {
-  .main {
-    display: flex;
     justify-content: center;
+    grid-template-columns: 255px 1fr;
+    max-width: 1110px;
+    gap: 30px;
   }
 }

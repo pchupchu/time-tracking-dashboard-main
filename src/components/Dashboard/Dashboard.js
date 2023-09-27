@@ -3,12 +3,9 @@ import './Dashboard.css';
 import cards from '../../utils/cards';
 
 function Dashboard() {
-
   return (
     <section className="dashboard">
       <ul className='dashboard__list'>
-
-
       {cards.map(item => {
           return (
             <Card
@@ -21,7 +18,6 @@ function Dashboard() {
           )
         })}
       </ul>
-
     </section>
   );
 }
