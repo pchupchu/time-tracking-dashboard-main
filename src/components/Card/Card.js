@@ -7,7 +7,7 @@ function Card({title, image, background, timeframes}) {
       <div className='card__container'>
         <div className='card__content'>
           <h2 className='card__title'>{title}</h2>
-          <button className='card__button'></button>
+          <button className='card__button' aria-label='learn more'></button>
         </div>
         <div className='card__content card__value'>
           <p className='card__time'>{timeframes.weekly.current}hrs</p>
