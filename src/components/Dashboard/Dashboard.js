@@ -1,11 +1,8 @@
-// import { useState } from 'react';
 import Card from '../Card/Card';
 import './Dashboard.css';
 import cards from '../../utils/cards';
 
 function Dashboard() {
-
-  // const [cards, setCards] = useState([]);
 
   return (
     <section className="dashboard">
